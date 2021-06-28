@@ -1,0 +1,34 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title><%= title %></title>
+   <link rel='stylesheet' href='/css/style.css'/>
+</head>
+<body>
+<img src="/images/shop.png" height="150px" width="auto"> <%= title %>
+
+<table>
+
+
+   <tr><td>brand_id</td><td>brand_name</td><td>#Bike</td></tr>
+   <% brand.forEach((brand, index) => { %>
+      <a  class="brand-link" href="/category/">
+
+   <tr><td><%= brand.brand_id %></td><td><%= brand.brand_name %></td><td><%= brand.bike %></td></tr>
+
+      </a>
+   <% }) %>
+
+   <tr><td colspan="2">Sum</td><td>62</td></tr>
+
+
+   </tr>
+</table>
+
+
+</body>
+</html>
+

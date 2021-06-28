@@ -1,0 +1,25 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title><%= title %></title>
+   <link rel='stylesheet' href='/css/style.css'/>
+</head>
+<body>
+<img src="/images/shop.png" height="150px" width="auto"> <%= title %>
+<p><%= name %></p>
+<table>
+   <tr><td>Brand</td><td><%= product.brand_id %></td></tr>
+   <tr><td>category_id</td><td><%= product.category_id %></td></tr>
+   <tr><td>model_year</td><td><%= product.model_year %></td></tr>
+   <tr><td>list_price</td><td><%= product.list_price %></td></tr>
+   <tr><td>brand_name</td><td><%= product.brand_name %></td></tr>
+   <tr><td>category_name</td><td><%= product.category_name %></td></tr>
+   </tr>
+</table>
+</body>
+</html>
+
+<p><a href="/product/edit/<%= product.product_id %>">Edit</a>

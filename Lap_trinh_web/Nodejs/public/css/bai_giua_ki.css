@@ -1,0 +1,169 @@
+*{margin: 0;
+padding: 0;
+}
+.gt{
+    margin:6em 0;
+    padding:0 2%;
+}
+.gt h2{
+    padding:1em 0 3em 0;
+}
+.gt h4{
+    text-align:center
+}
+.product{
+    padding:0 10%;
+}
+.product h2{
+    text-align:center;
+    padding:1em 0 1em;
+}
+.price{
+    text-align:center;
+    padding:.3em 0 0 0;
+}
+.partner{
+    text-align:center;
+}
+.partner h3{
+    padding:3em 0 1.4em 0;
+}
+.image{
+    display:flex;
+    padding:0 5em;
+}
+.partner img{
+    width:250px;
+}
+footer{
+   padding:0 10%;
+   font-size:.9em;
+   margin:8em 0;
+}
+footer h2{
+    font-size:1.5em;
+}
+footer ul{
+    list-style:none
+}
+
+.scroll {
+    color: #fff;
+    margin-top: 100px
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5, 76%, 62%, .8)
+}
+
+.js .cd-top--fade-out {
+    opacity: .5
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+@media screen and (max-width:500px) {
+  header{
+    height:auto;
+    font-size:10px;
+  }
+  .menu ul:first-child li{
+  margin-right:0;
+}
+.menu ul:last-child li{
+  margin-left:0;
+}
+ html{
+    font-size:11px;   
+  }
+  section .h2 a{
+   font-size:12px;
+  }      
+  .login{
+    display:block;
+    font-size:8px
+  }
+  .sign{
+    float:right;
+    padding:0 1em;
+  }
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .search{
+    float:right;
+  }
+  .h2{
+  display:block;
+  font-size:11px;
+} 
+section .h2::after{
+   display:none;
+} 
+  .map{
+    width:250px;
+    height:250px;
+  } 
+}
+@media screen and (min-width:501px) and (max-width:800px){
+  header{
+    height:160px;
+    font-size:13px;
+  }
+section .h2 a{
+   font-size:12px;
+  } 
+  .login{
+    font-size:10px;
+  } 
+  .menu{
+    padding:0;
+    float:left;
+  }
+ 
+  .menu ul:first-child li{
+  margin-right:0.9em;
+  margin-left:0.9em;
+}
+.menu ul:last-child li{
+  margin-right:0.9em;
+  margin-left:0.9em;
+}  
+}
+@media screen and (min-width:801px){  
+}

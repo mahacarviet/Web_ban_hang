@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title><%= title %></title>
+   <link rel='stylesheet' href='/css/style.css'/>
+</head>
+<body>
+<img src="/images/shop.png" height="50px" width="50px"> <%= title %>
+<p><%= name %></p>
+<form action="" method="post">
+   <table>
+       <tr>
+           <td>Name:</td>
+           <td><input type="text" value="<%= product.product_name %>" name="product_name" size="40"></td>
+       </tr>
+       <tr>
+           <td>brand_id:</td>
+           <td><input type="text" value="<%= product.brand_id %>" name="brand_id" size="40"></td>
+       </tr>
+       <tr>
+           <td>category_id:</td>
+           <td><input type="text" value="<%= product.category_id %>" name="category_id" size="40"></td>
+       </tr>
+       <tr>
+           <td>Year:</td>
+           <td><input type="text" value="<%= product.model_year %>" name="model_year" size="40"></td>
+       </tr>
+       <tr>
+           <td>Price:</td>
+           <td><input type="text" value="<%= product.list_price %>" name="list_price" size="40"></td>
+       </tr>
+   </table>
+   </p><input type="submit"/>
+</form>
+</body>
+</html>
